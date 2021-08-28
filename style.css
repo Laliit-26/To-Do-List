@@ -1,0 +1,78 @@
+.body{
+    margin:0px;
+    padding:0px;
+ 
+ 
+   
+}
+*{
+    box-sizing: border-box;
+ background-color: rgba(228, 252, 239, 0.836);
+     
+
+}
+.input{
+    margin:auto;
+  width:800px;
+}
+input{
+    margin:auto;
+    width:800px;
+    margin-top:50px;
+    padding:8px;
+    font-size: 20px;
+    border: 1px solid gray;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.add{
+    margin:10px auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 164, 185);
+        border: 0px solid gray;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 4px;
+        font-size: 20px;
+
+}
+.list{
+     margin:60px auto;
+    height: 400px;
+    width:800px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: scroll;
+  background-color: rgb(201, 201, 201);
+}
+ul li{
+     list-style: none;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding:5px;
+     justify-content: flex-start;
+     margin:5px;
+     
+     /* overflow: scroll; */
+  
+    
+
+}
+/* ul li div{
+    display: inline;
+    position: relative;
+
+} */
+/* span{
+    margin-left:800px;
+} */
+.fl{
+   
+/* border: 2px solid rgb(73, 73, 73); */
+
+  display: flex;
+   flex-direction: row;
+  justify-content: space-between;
+}
+/* .delete{
+   flex:2;
+} */
